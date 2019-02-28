@@ -1,0 +1,207 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+#header{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+}
+
+#header h1{
+	border: solid 1px white;
+	width: 25%;
+	text-align: center;
+}
+.container{
+	position: relative;
+	border: double black 5px;
+	height:95%;
+	padding:2px;
+	overflow: hidden;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content:space-around;
+	background-image: url('fondo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;	
+}
+.caja{
+	border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: black;
+	width: 30%;
+	height: 30%;
+}
+.caja1{
+	position: absolute;
+	top:15%;
+	left:50%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	z-index: 5;
+	
+}
+.caja2{
+	
+	position: absolute;
+	top:85%;
+	left:50%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;	
+	
+
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}
+
+.caja3{
+	
+	position: absolute;
+	top:25%;
+	left:35%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;	
+	background-color:green;
+	
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}
+
+.caja4{
+	
+	position: absolute;
+	top:75%;
+	left:65%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;
+	background-color:black;
+	
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}
+.caja5{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color:purple;
+	width: 30%;
+    height: 40%;
+    moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	background-image: url("tonto.jpg");
+	background-size: 110%;
+	background-position: top; 
+	background-repeat: no-repeat;
+	
+}
+
+.caja6{
+	position: absolute;
+	top:50%;
+	left:27%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;	
+	background-color:pink;
+	
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+	
+}
+
+.caja7{
+	position: absolute;
+	top:50%;
+	left:73%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;	
+	background-color:navy;
+	
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}
+
+.caja8{
+	position: absolute;
+	top:25%;
+	left:65%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;	
+	background-color:orange;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}
+.caja9{
+	position: absolute;
+	top:75%;
+	left:35%;
+	transform: translate(-50%,-50%);	
+	background-color:red;
+	width: 10%;
+    height: 20%;	
+	background-color:brown;
+	
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}
